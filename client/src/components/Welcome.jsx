@@ -2,9 +2,11 @@ import React, {useContext} from 'react';
 import { AiFillPlayCircle } from "react-icons/ai";
 import {SiE, SiEthereum} from 'react-icons/si';
 import {BsInfoCircle} from 'react-icons/bs';
-import {Loader}from './'; 
+import {Loader}from '.'; 
 
 import { TransactionContext } from "../context/TransactionContext";
+import { shortenAddress } from "../utils/shortenAddress.js";
+
 
 const commonStyles = "min-h-[70px] sm:px-0 px-2 sm:min-w-[120px] flex justify-center items-center border-[0.5px] border-gray-400 text-sm font-light text-white";
 
@@ -73,8 +75,7 @@ const handleSubmit = (e) => {
                             </div>
                             <div>
                                 <p className="text-white font-white text-sm">
-                                    0xasdad.....dasdasd
-                                </p>
+                                {currentAccount ? shortenAddress(currentAccount) : "Not Connected"}                                </p>
                                 <p className="text-white font-semibold text-lg mt-1">
                                     Ethereum
                                 </p>
