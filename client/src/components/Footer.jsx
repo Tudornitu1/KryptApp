@@ -1,5 +1,5 @@
 import logo from '../../images/logo.png'
-
+import githubLogo from '../../images/ghlogo.svg'
 const Footer = () => {
     return (
         <div className='w-full flex md:justify-center justify-between items-center flex-col p-4 gradient-bg-footer'>
@@ -15,8 +15,15 @@ const Footer = () => {
                 </div>
             </div>
             <div className='flex justify-center items-center flex-col mt-5'>
-                <p className='text-white text-sm text-center'>Come join us</p>
+                <p className='text-white text-sm text-center'>Contact me</p>
                 <p className='text-white text-sm text-center'>tudornitu40@gmail.com</p>
+            </div>
+            <div className='sm:w-[90%] w-full h-[0.25px] bg-gray-400 mt-5'/>
+            <div className='sm:w-[90%] w-full flex justify-between items-center mt-3'>
+            <img src={githubLogo} alt="logo" className='w-32 h-10' />
+
+                <a className='text-white text-sm text-center' href='https://github.com/Tudornitu1/KryptApp' >https://github.com/Tudornitu1</a>
+
 
             </div>
         </div>
