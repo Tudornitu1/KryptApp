@@ -1,5 +1,5 @@
 
-This is my first personal blockchain project! It’s a simple web app where you can send Ethereum to others securely. Built with React, TailwindCSS, and Ethers.js, it connects to the Ethereum blockchain using smart contracts. You can connect your wallet, send ETH along with a message and keyword, and view your transactions easily. 
+This is my first personal blockchain project! It’s a simple web app where you can send Ethereum to others securely. Built with React, TailwindCSS, and Ethers.js, it connects to the Ethereum blockchain using smart contracts. You can connect your Metamask wallet, send ETH along with a message and gif and view your transactions easily. 
 
 
 
