@@ -10,5 +10,7 @@ This is my first personal blockchain project! It’s a simple web app where you 
 
 
 Here you can see your latest transactions, including the message, the date and a gif.
+
+
 ![image](https://github.com/user-attachments/assets/f28caed5-dbb6-41f3-9d0a-8d8933d92430)
 
